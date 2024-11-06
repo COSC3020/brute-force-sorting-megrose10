@@ -2,6 +2,9 @@ function permutationSort(a) {
     let counter = 0;
     let zeroCounter = 0;
     let alen = a.length;
+    if(alen==0){
+      return a;
+    }
     while(counter < alen) {
       if(a[counter] == 1) {
         zeroCounter++;
