@@ -1,17 +1,21 @@
 function permutationSort(a) {
     for(let i = 0; i < a.length; i++) {
-        for(let j = 1; j < a.length - 1; j++) {
-          if(array[i] > array[j]) {
-            let tmp = array[j];
-            array[j] = array[i];
-            array[i] = tmp;
+        for(let j = i + 1; j < a.length; j++) {
+          //console.log("i = " + a[i]);
+          //console.log("j = " + a[j]);
+          //console.log(a);
+          if(a[i] > a[j]) {
+            let tmp = a[j];
+            a[j] = a[i];
+            a[i] = tmp;
           }
+          
         }
     }
             
-    return array;
+    return a;
 }
 
-let array = [2, 4, 3, 1, 5];
-array = permutationSort(array);
-console.log(array);
+//let array = [2, 4, 3, 1, 5];
+//array = permutationSort(array);
+//console.log(array);
