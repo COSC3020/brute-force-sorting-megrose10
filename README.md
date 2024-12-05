@@ -11,6 +11,10 @@ The return value should be the number of permutations that were tried until the
 sorted list was "discovered". The unsorted list passed as an argument should be
 sorted, i.e. do not copy the list and sort the copy.
 
+I discussed what this problem is overall asking with cole, olivia, and ashylyn.
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+
 ## Runtime Analysis
 
 What is the runtime complexity of the algorithm that you implemented? What does
