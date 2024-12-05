@@ -3,7 +3,8 @@ function permutationSort(a) {
     let permNum = 1;
     //let numToMove = 0;
     if(checkSort(a) == true) {
-        console.log("already sorted");
+        //console.log("already sorted");
+        return permNum;
     }
     else{
         while(isSorted == false) {
